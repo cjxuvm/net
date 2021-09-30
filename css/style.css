@@ -12,7 +12,11 @@ body {
 	margin: 0 auto;
 	width: 800px;
 	padding: 0;
+<<<<<<< HEAD
 	background: #a7093e url('../Shared%20Documents/images/body_bg.gif') repeat-x top;
+=======
+	background: #6e0427 url('../Shared%20Documents/images/body_bg.gif') repeat-x top;
+>>>>>>> c7138b77426540ab4b2871ab36d3b17a8fbe0b9c
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
 	color: #333;
@@ -150,7 +154,11 @@ the layout
 	border: 5px solid #ddd;
 }
 
+<<<<<<< HEAD
 footer {
+=======
+#footer {
+>>>>>>> c7138b77426540ab4b2871ab36d3b17a8fbe0b9c
 	clear: both;
 	background: #eee;
 	padding: 10px;
