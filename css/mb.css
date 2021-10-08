@@ -1,7 +1,17 @@
+body {
+    width: 1050px ;
+    margin: auto;
+    letter-spacing: normal;
+    background-color: #e0efe4;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+}
+
 #header {
 	background-color: #e0efe4;
-	width: 100%;
-	height: 480px;
+	margin: 0px 0px 30px 0px  ; 
+    width: 100% ;
 }
 #headerContainer {
 	width: 980px;
@@ -21,26 +31,28 @@
 	padding-right: 15px;
 	margin-top: 38px;
 }
+
 #logo {
 	float: left;
 	margin-top: 25px;
-	margin-left: 30px;
+	margin-left: 20px;
 }
 #topLink a    {
 	color: #FFFFFF;
 }
 #Nav ul    {
 	list-style-type: none;
-	font-size: 1.2em;
+	font-size: 1.0em;
 	color: #5C5A53;
 	font-family: Charlemagne Std;
 }
-#Nav ul li    {
+#Nav ul li{
 	float: left;
+    padding: -20px 60px 0 0 ;
 	margin-left: 30px;
 	margin-right: 10px;
 }
-#Nav    {
+#Nav{
 	float: right;
 	clear: right;
 }
@@ -48,17 +60,19 @@
 	float: right;
 	margin-top: 10px;
 }
+
 #leftheader h1  {
 	text-align: left;
 	color: #2B8BCC;
 	font-family: Charlemagne Std;
 	font-style: normal;
 	font-weight: 400;
-	background-image: url(../psd/images/Line.png);
+	background-image: url(../assets/Line.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	background-size: auto 1px;
 }
+
 #leftheader {
 	float: left;
 	margin-top: 18px;
@@ -70,8 +84,8 @@
 }
 #leftheader p {
 	font-size: 18px;
-    
 }
+ 
 #mainContainer {
     float: left;
 	background-image: -webkit-linear-gradient(270deg,rgba(0,66,128,1.00) 0%,rgba(61,142,193,1.00) 100%);
@@ -79,15 +93,33 @@
 	width: 100%;
 	height: 315px;
 }
+
 #wrapper {
 	width: 980px;
 	margin:auto;
-    
 }
+
+#footer {
+    float: left;
+    background-color: #33336a;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+footer p {
+    font-size:12px;
+    margin: 5px 0 0 0 ;
+    padding:5px 0 ;
+    color: #f4f4f4
+    }
+
+
 #wrapper .cms {
 	width: 210px;
 	margin-left: 31px;
-	padding-top: 200px;
+	padding-top: 50px;
 	left: -4px;
 	text-indent: 15px;
 	float: left;
@@ -100,11 +132,12 @@
 	font-family: Charlemagne Std;
 	font-size:16px;
 }
+
 #wrapper .cms img {
 	float: left;
 }
 #wrapper .cms a {
-	background-image: url(../psd/images/RArrow.png);
+	background-image: url(../images/RArrow.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	float: left;
@@ -115,15 +148,4 @@
 	padding-top: 10px;
 	font-size: 1em;
 	text-indent: 0px;
-}
-#footer {
-    clear: both;
-	background-color: #33326A;
-	width: 100%;
-	height: 40px;
-	border-top: 1px solid #FFFFFF;
-	text-align: center;
-}
-#footer p {
-	color: #FFFFFF;
 }
