@@ -12,11 +12,7 @@ body {
 	margin: 0 auto;
 	width: 800px;
 	padding: 0;
-<<<<<<< HEAD
-	background: #a7093e url('../Shared%20Documents/images/body_bg.gif') repeat-x top;
-=======
-	background: #6e0427 url('../Shared%20Documents/images/body_bg.gif') repeat-x top;
->>>>>>> c7138b77426540ab4b2871ab36d3b17a8fbe0b9c
+	background: #6e0427 url('../images/body_bg.gif') repeat-x top;
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
 	color: #333;
@@ -105,7 +101,7 @@ the layout
 	margin: 10px 0 0 0;
 	padding: 10px;
 	text-align: center;
-	background: url('../Shared%20Documents/images/tagline_bg.gif') repeat-x;
+	background: url('../images/tagline_bg.gif') repeat-x;
 }
 
 #content, #sidebar {
@@ -154,11 +150,7 @@ the layout
 	border: 5px solid #ddd;
 }
 
-<<<<<<< HEAD
-footer {
-=======
 #footer {
->>>>>>> c7138b77426540ab4b2871ab36d3b17a8fbe0b9c
 	clear: both;
 	background: #eee;
 	padding: 10px;
